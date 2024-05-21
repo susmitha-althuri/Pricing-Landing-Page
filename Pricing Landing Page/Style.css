@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  .tier {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+  }
+  
+  .tier-header {
+    margin-bottom: 20px;
+  }
+  
+  .tier-header h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .tier-price {
+    font-size: 1.5em;
+    color: #4CAF50;
+  }
+  
+  .tier-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tier-features li {
+    margin-bottom: 10px;
+  }
+  
+  .tier-features li✔ {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .popular {
+    background-color:
